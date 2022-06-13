@@ -1,0 +1,126 @@
+*
+{
+  background: #000;
+}
+section
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:transform 1s ease-in-out;
+}
+section:hover
+{
+  transform: rotateY(360deg);
+}
+.thumbnail
+{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 836px;
+  max-height: 489px;
+  position: relative;
+}
+.moodboard
+{
+  width: 425px;
+  height: 136px;
+  left: 24px;
+  top: 24px;
+  background-color: #005de9;
+}
+.moodboard h1
+{
+  font-weight: 700;
+  font-size: 72px;
+  color:#fff;
+  background-color: #005de9;
+  margin: auto;
+}
+.arrow
+{
+  width: 195px;
+  height: 136px;
+  background-color: #faa9cb;
+}
+.arrow img
+{
+  margin: auto;
+  background: #faa9cb;
+}
+.line
+{
+  width: 136px;
+  height: 136px;
+}
+.line img
+{
+  background-color: #005ce7;
+}
+.kit
+{
+  width: 136px;
+  height: 136px;
+  background: #ff5b2b;
+}
+.kit h1
+{
+  font-weight: 700;
+  font-size: 72px;
+  color:#fff;
+  background: #ff5b2b;
+  margin: 0%;
+  
+}
+.frame
+{
+  width: 195px;
+  height: 136px;
+}
+.star
+{
+  width: 142px;
+  height: 136px;
+  background-color: #ff5b2b
+}
+.star img
+{
+  background-color: #ff5b2b;
+}
+.sun
+{
+  width: 266px;
+  height: 136px;
+  background-color: #ffae1b;
+}
+.sun img
+{
+  background-color: #ffae1b;
+}
+.pencil
+{
+  width: 268px;
+  height: 136px;
+  background: #faa9cb;
+}
+.pencil img
+{
+  background: #faa9cb;
+}
+.grid
+{
+  width: 220px;
+  height: 136px;
+}
+.group
+{
+  width: 268px;
+  height: 136px;
+  background: #008c26
+}
+.group img
+{
+  background: #008c26;
+}
